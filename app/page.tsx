@@ -31,7 +31,7 @@ const handleMailClick = () => {
 };
 
 const handleResumeClick = () => {
-  window.open("https://drive.google.com/file/d/1KxOltqMSCLoxNmOKkvrTHgbHwiQy8HIb/view?usp=sharing", "_blank");
+  window.open("https://drive.google.com/file/d/1mNqnQaQ5-s9f-HESJ2SGUB9nfqMScaG_/view?usp=sharing", "_blank");
 };
 
 const projects = [
