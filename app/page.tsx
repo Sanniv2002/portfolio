@@ -27,7 +27,7 @@ const handleLinkedinClick = () => {
 };
 
 const handleMailClick = () => {
-  window.location.href = "mailto:your-sanniv.nitkkr@gmail.com";
+  window.location.href = "mailto:sanniv.nitkkr@gmail.com";
 };
 
 const handleResumeClick = () => {
