@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { CanvasBackground } from '@/components/canvas-background';
 import { GreetingAnimation } from "@/components/greeting-animation";
 import { Timeline } from "@/components/timeline";
 import { ProjectCard } from "@/components/project-card";
@@ -95,8 +96,9 @@ const skillCategories = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="relative min-h-screen ">
       {/* Hero Section */}
+      <CanvasBackground />
       <section className="min-h-screen flex flex-col items-center justify-center px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
